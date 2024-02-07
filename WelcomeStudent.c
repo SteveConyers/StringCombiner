@@ -12,7 +12,7 @@ int main(void)
 {
 /*------------------------------------------------------------------------------*/
 /* Declarations */
-  char first[11] 		= {'\0'};
+	char first[11] 		= {'\0'};
 	char middle[2] 		= {'\0'};
 	char last[16]  		= {'\0'};
 	char student[7]		= {'\0'};
@@ -66,7 +66,7 @@ int main(void)
 	printf("%s\n\n", nameOutput);
 /*------------------------------------------------------------------------------*/
 /* String data manipulation */
-  password[0] = strlwr(first)[0];
+  	password[0] = strlwr(first)[0];
 	password[1] = strlwr(first)[2];
 	password[2] = strlwr(first)[3];
 	password[3] = strlwr(last)[0];
