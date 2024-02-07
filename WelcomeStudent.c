@@ -10,7 +10,7 @@ Updated: 2/7/2021 */
 int main(void)
 {
 /* Declarations */
-  char first[11] 		= {'\0'};
+	char first[11] 		= {'\0'};
 	char middle[2] 		= {'\0'};
 	char last[16]  		= {'\0'};
 	char student[7]		= {'\0'};
