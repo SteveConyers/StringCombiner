@@ -5,12 +5,14 @@ Updated: 2/7/2021 */
 #include <stdio.h>
 #include <string.h>
 
-#include "fixgets.h"  //Included in repository and needed for program
+
+#include "fixgets.h"  //Found in Project 4 folder
 
 int main(void)
 {
+/*------------------------------------------------------------------------------*/
 /* Declarations */
-	char first[11] 		= {'\0'};
+  char first[11] 		= {'\0'};
 	char middle[2] 		= {'\0'};
 	char last[16]  		= {'\0'};
 	char student[7]		= {'\0'};
@@ -42,10 +44,9 @@ int main(void)
 	fixgets(school, 21, stdin);
 	printf("\n\n\n");
 /*------------------------------------------------------------------------------*/
-	 /* beginning value */
-	strcpy(nameOutput, "Welcome to MCC, ");
-	
-	/* concatenation */
+/* beginning value */
+	strcpy(nameOutput, "Welcome to Harvard, ");
+/* concatenate */
 	strcat(nameOutput, first);
 	strcat(nameOutput, " ");
 	strcat(nameOutput, middle);
@@ -61,10 +62,10 @@ int main(void)
 	strcat(nameOutput, school);
 	strcat(nameOutput, "!");
 /*------------------------------------------------------------------------------*/
-	/* String output*/
+/* String output*/
 	printf("%s\n\n", nameOutput);
 /*------------------------------------------------------------------------------*/
-	/* String data manipulation */
+/* String data manipulation */
   password[0] = strlwr(first)[0];
 	password[1] = strlwr(first)[2];
 	password[2] = strlwr(first)[3];
