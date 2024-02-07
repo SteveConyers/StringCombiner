@@ -1,17 +1,14 @@
-/* Welcome.c by Steven Conyers 3/30/2021 */
-
-
-
+/* WelcomeStudent.c by Steven Conyers
+Created: 3/30/2021
+Updated: 2/7/2021 */
 
 #include <stdio.h>
 #include <string.h>
 
-
-#include "fixgets.h"  //Found in Project 4 folder
+#include "fixgets.h"  //Included in repository and needed for program
 
 int main(void)
 {
-/*------------------------------------------------------------------------------*/
 /* Declarations */
   	char first[11] 		= {'\0'};
 	char middle[2] 		= {'\0'};
@@ -47,7 +44,8 @@ int main(void)
 /*------------------------------------------------------------------------------*/
 	 /* beginning value */
 	strcpy(nameOutput, "Welcome to MCC, ");
-	/* concatenate */
+	
+	/* concatenation */
 	strcat(nameOutput, first);
 	strcat(nameOutput, " ");
 	strcat(nameOutput, middle);
@@ -67,7 +65,7 @@ int main(void)
 	printf("%s\n\n", nameOutput);
 /*------------------------------------------------------------------------------*/
 	/* String data manipulation */
-  	password[0] = strlwr(first)[0];
+  password[0] = strlwr(first)[0];
 	password[1] = strlwr(first)[2];
 	password[2] = strlwr(first)[3];
 	password[3] = strlwr(last)[0];
@@ -79,7 +77,7 @@ int main(void)
 	password[9] = student[5];
 	password[10] = '\0'; // null terminator
 /*------------------------------------------------------------------------------*/
-	/* String manipulation output */
+/* String manipulation output */
 	// Password is comprised of first, third and fourth letters of first name, followed by first, third and fifth letters of the last name, then followed by last digits the of student ID
 	printf("Your password is %s\n", password); 
 	
