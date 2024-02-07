@@ -6,6 +6,6 @@ The password is comprised of three letters from the students first, last name an
 This program may be executed from the command line or executed as part of a batch file.
 
 Learned:
-1. stcat and strcpy
+1. strcat and strcpy
 2. Char array to accommodate longer fields
-3. How to get a program to read from another file to allow the code to process and output correctly.
+3. How include another programming file that is read only, for use in another file.
