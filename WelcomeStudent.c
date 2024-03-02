@@ -5,8 +5,7 @@ Updated: 2/7/2024 */
 #include <stdio.h>
 #include <string.h>
 
-
-#include "fixgets.h"  //Found in Project 4 folder
+#include "fixgets.h"
 
 int main(void)
 {
@@ -45,7 +44,7 @@ int main(void)
 	printf("\n\n\n");
 /*------------------------------------------------------------------------------*/
 /* beginning value */
-	strcpy(nameOutput, "Welcome to Harvard, ");
+	strcpy(nameOutput, "Welcome to Princeton, ");
 /* concatenate */
 	strcat(nameOutput, first);
 	strcat(nameOutput, " ");
@@ -66,16 +65,16 @@ int main(void)
 	printf("%s\n\n", nameOutput);
 /*------------------------------------------------------------------------------*/
 /* String data manipulation */
-  	password[0] = strlwr(first)[0];
-	password[1] = strlwr(first)[2];
-	password[2] = strlwr(first)[3];
-	password[3] = strlwr(last)[0];
-	password[4] = strlwr(last)[2];
-	password[5] = strlwr(last)[5];
-	password[6] = student[2];
-	password[7] = student[3];
-	password[8] = student[4];
-	password[9] = student[5];
+  	password[0]  = strlwr(first)[0];
+	password[1]  = strlwr(first)[2];
+	password[2]  = strlwr(first)[3];
+	password[3]  = strlwr(last)[0];
+	password[4]  = strlwr(last)[2];
+	password[5]  = strlwr(last)[5];
+	password[6]  = student[2];
+	password[7]  = student[3];
+	password[8]  = student[4];
+	password[9]  = student[5];
 	password[10] = '\0'; // null terminator
 /*------------------------------------------------------------------------------*/
 /* String manipulation output */
