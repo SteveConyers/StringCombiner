@@ -1,6 +1,6 @@
 /* WelcomeStudent.c by Steven Conyers
 Created: 3/30/2021
-Updated: 2/7/2021 */
+Updated: 2/7/2024 */
 
 #include <stdio.h>
 #include <string.h>
@@ -18,7 +18,7 @@ int main(void)
 	char student[7]		= {'\0'};
 	char school[21]		= {'\0'};
 	char password[11] 	= {'\0'};
-	char nameOutput[73] = {'\0'};
+	char nameOutput[73] 	= {'\0'};
 /*------------------------------------------------------------------------------*/
 /* Heading */
 	printf ("Welcome Student Application by Steven Conyers\n\n\n");
